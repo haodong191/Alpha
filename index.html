@@ -3,46 +3,38 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Breakdown Of UPENN Project 1</title>
 </head>
 <body>
-
-  <h1>Hao Dong</h1>
-​
-  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG2PqFv-1BQsQ/profile-displayphoto-shrink_800_800/0/1628037139823?e=1634774400&v=beta&t=6sPgbu-cKBVXHBnTsDiMJFwggEr5kQQztfraRtt-OMo" alt="Hao Dong" height="300">
-​
-  <p>I enjoy fishing, woodworking, comedy, and building spacecrafts in video games.</p>
-  <p>My family and I immigrated to the USA in 1996 (age 6) and I have been persuing the American dream since then. 
-    I believe all steaks should be medium-rare, the best lobsters in the world are from Maine, and the Grand Canyon isn't big enough and we should do something about it.</p>
-​
+  <h1>Hypothesis: With climate change, we predict that there is a greater strain on quality of life</h1>
+  <h2>Decompose</h2>
+<p>Hypothesis: With climate change, we predict that there is a greater strain on quality of life
+  Defining climate change as extremes in both heat index, wind speed, and precipitation
+  Quality-of-life measures are defined by crime rates, property values, and traffic fatalities
+  Four of the most populous cities in the United States: New York, Los Angeles, Chicago, and Philadelphia
+  Measuring our hypothesis with U.S. cities allows us to measure climate change on quality of life without having to resolve socioeconomic factors that would interfere with measuring the data set
+  </p>
+<h2>Data Retrieval </h2>
   <ul>
-    <li><strong>Email:</strong> <a href="#">hdong215@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">https://github.com/haodong191</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
+    <li>Quality-of-life measures began by finding the Open Data Websites for the four major cities</li>
+    <li>Traffic Fatality</li>
+    <li>Federal Housing Finance Agency</li>
+    <li>Weather from Meteostat.net</li>
+    <li>Due to data availability we decided on 2012 and 2019. Earlier than 2012 datasets were not available for all cities.</li>
   </ul>
-​
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>Elon Musk</td>
-      <td>The Dark Knight</td>
-      <td>F1 2020</td>
-    </tr>
-    <tr>
-      <td>Delivering Happiness</td>
-      <td>Inception</td>
-      <td>The Metal Gear Series</td>
-    </tr>
-    <tr>
-      <td>Yes Please</td>
-      <td>Tenent</td>
-      <td>Kerbal Space Program</td>
-    </tr>
-  </table>
+  <h2>Data Cleaning </h2>
+  <ul>
+    <li>Jupyter Lab was used heavily to clean the data</li>
+    <li>Traffic Fatalities, Property Values, and Weather data sets were less cumbersome
+    </li>
+    <li>Removed & renamed columns
+    </li>
+    <li>Datetimeindex
+    </li>
+    <li>Groupby month
+    </li>
+    <li>Valuetype error</li>
+  </ul>
 
 </body>
 ​
